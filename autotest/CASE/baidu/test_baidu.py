@@ -21,7 +21,7 @@ class Test(unittest.TestCase):
 		#driver=webdriver.Chrome()
 		self.driver.get("http://www.baidu.com")
 	def test_login(self):
-		self.driver.add_cookie({u'name':u'BDUSS', u'value':u'dyVWtCN343Q3FGdW1vc1hPfnVvMkV1eWcxTnloRHlWSW9qQkxSfklvNDVDMWRhQUFBQUFBJCQAAAAAAAAAAAEAAABhXxNGRHlzYW5pYV9HR0cAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADl-L1o5fi9aMm'})
+		self.driver.add_cookie({u'name':u'BDUSS', u'value':u'自己的'})
 		time.sleep(3)
 		self.driver.refresh()
 	
